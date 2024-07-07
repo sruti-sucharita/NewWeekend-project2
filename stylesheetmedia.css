@@ -1,0 +1,196 @@
+
+        /* Reset default list styles */
+    body{
+        margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+
+        }
+    table {
+      border : 1px solid rgb(153, 216, 160);
+      width: 83%;
+      border-collapse: collapse;
+      margin-top: 59px;
+      margin-left: 205px;
+      margin-right: 50px;
+    }
+    
+    th {
+      background-color:#b6ebc2 ;
+      border : 1px solid rgb(153, 216, 160);
+      text-align: left;
+      font-size: 30px;
+      height: 20px;
+      margin-top: 10px;
+    }
+    
+    td {
+      border : 1px solid rgb(153, 216, 160);
+      text-align: center;
+      height: 20px;
+    }
+    form {
+      border : 1px solid rgb(82, 6, 6);
+      padding: 10px;
+    }
+    .department-table {
+            background-color:#9794cb ; /* Replace with your color code */
+        }
+        .media-table {
+            background-color:#eca48a; /* Replace with your color code */
+        }
+        .images-table {
+            background-color:#d6d1a1;
+            margin-top: 10px; /* Replace with your color code */
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the navigation bar */
+        nav {
+            background-color: #f1b9e5;
+            width: 200px; /* Adjust as needed */
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0; /* Fill entire vertical space */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+
+        /* Style the navigation links */
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: flex; /* Display as block elements */
+            border: 1px solid #232222; /* Add a border */
+            border-radius: 5px; /* Rounded corners */
+            margin-bottom: 5px; /* Space between links */
+            width: 88%; /* Full width */
+        }
+
+        /* Add hover effect */
+        nav a:hover {
+            background-color: #a873a3;
+        }
+
+        /* Add icons/images */
+        .icon {
+            margin-right: 10px; /* Space between icon and text */
+            width: 20px; /* Set a fixed width */
+            height: 20px; /* Set a fixed height */
+        }
+
+        /* Header styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f1bbeb;
+            padding: 10px;
+            color: #2c2c2c;
+            position: fixed; /* Adjust position */
+            top: 0; /* Align with top */
+            left: 0; /* Align with left */
+            right: 0; /* Stretch to right edge */
+        }
+
+        /* Search bar styles */
+        .search-bar-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #fdfcfc; /* Add a border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 5px;
+        }
+
+        .search-bar {
+            width: 100%;
+            border: none;
+            background-color: transparent;
+            color: #fff;
+        }
+        /* Flex container for additional boxes */
+
+        .additional-boxes {
+            display: flex;
+            justify-content: space-between; /* Distribute boxes evenly */
+            margin-top: 5px;
+            margin-left: 205px;
+            height: 150px; /* Space between navigation and boxes */
+        }
+
+        /* Additional box styles */
+        .additional-box {
+            background-color: #fdfcfd;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1; /* Expand to fill available space */
+            margin-right: 5px; /* Space between boxes */
+            font-size: 30px;
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            margin-top: 5px;
+            height: 150px;
+        }
+        .additional-box1 {
+            background-color: #9794cb;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1; /* Expand to fill available space */
+            margin-right: 5px; /* Space between boxes */
+            font-size: 30px;
+        }
+        .additional-box2 {
+            background-color: #eca48a;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1; /* Expand to fill available space */
+            margin-right: 5px; /* Space between boxes */
+            font-size: 30px;
+        }
+        .additional-box4 {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1; /* Expand to fill available space */
+            margin-right: 5px; /* Space between boxes */
+            font-size: 30px;
+            margin-top: 0;
+        }
+        .additional-box img {
+            flex: 1;
+            max-width: 500px; /* Ensure image fits within the box */
+            max-height: 100%; /* Ensure image fits within the box */
+
+        }
+
+        .additional-boxesss {
+            display: flex;
+            justify-content: space-between; /* Distribute boxes evenly */
+            margin-top: 5px;
+            margin-left: 200px;
+            height: 150px; /* Space between navigation and boxes */
+        }
+        .additional-box3 {
+            background-color: #ece08a;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1; /* Expand to fill available space */
+            margin-right: 5px; /* Space between boxes */
+            font-size: 30px;
+            margin-top: 0;
+        }
+        .images {
+            margin-right: 10px; /* Space between icon and text */
+            width: 400px; /* Set a fixed width */
+            height: 400px; /* Set a fixed height */
+            margin-bottom: 10px;
+        }
