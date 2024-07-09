@@ -17,6 +17,35 @@ ul {
     margin: 0;
     padding: 0;
 }
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Adjust as needed */
+  }
+  .top-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust as needed */
+    margin-left: 24px;
+  }
+  .bottom-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust as needed */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 5px; /* Space between links */
+    width: 68%; /* Full width */
+    margin-left: 24px;
+  }
+  .spacer {
+    flex-grow: 1;
+  }
+
 
 /* Style the navigation bar */
 nav {
@@ -41,7 +70,7 @@ nav a {
     border: 1px solid #232222; /* Add a border */
     border-radius: 5px; /* Rounded corners */
     margin-bottom: 5px; /* Space between links */
-    width: 88%; /* Full width */
+    width: 120%; /* Full width */
 }
 
 /* Add hover effect */
