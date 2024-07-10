@@ -9,6 +9,22 @@
             reader.readAsDataURL(file);
         }
     });
+    document.getElementById('editName').addEventListener('click', function() {
+        document.getElementById('name').readOnly = false;
+    });
+        // Enable editing for the phone number field
+document.getElementById('editEmail').addEventListener('click', function() {
+    document.getElementById('email').readOnly = false;
+});
+    // Enable editing for the phone number field
+document.getElementById('editPhone').addEventListener('click', function() {
+    document.getElementById('phone').readOnly = false;
+});
+
+// Enable editing for the date of birth field
+document.getElementById('editDob').addEventListener('click', function() {
+    document.getElementById('dob').readOnly = false;
+});
 
     function saveChanges() {
         const name = document.getElementById('name').value;
