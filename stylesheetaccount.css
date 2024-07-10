@@ -214,10 +214,11 @@ box-sizing: border-box;
 margin-left: 215px;
 }
 .editable-field {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:row;
     margin-bottom: 16px;
     margin-left: 205px;
+    flex-grow:1;
 }
 .editable-field label {
     margin-bottom: 8px;
@@ -232,33 +233,47 @@ margin-left: 215px;
     border-radius: 4px;
 }
 .image-section {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
     align-items: center;
     margin-bottom: 16px;
-    margin-top: 40px;
+    margin-top: 59px;
     position: relative;
 }
 .image-section img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 0%;
     margin-bottom: 16px;
 }
 .image-section input[type="file"] {
-    display: none;
+    display:none;
 }
+/* Your existing CSS styles */
+
+/* Style the profile image */
+.profile-image {
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    border: 2px solid #f1b9e5; /* Add a 2px black border */
+    /* Add any other styling you need for the profile image */
+}
+
 .edit-button {
     padding: 8px 16px;
-    font-size: 14px;
-    background-color: #333;
-    color: white;
+    font-size: 20px;
+    background-color: #fdfcfc;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 5px;
+    color: black; /* Set the color to black */
+    transform: scaleX(-1); /* Flip horizontally (pointing left) */
+
 }
+
 .edit-button:hover {
-    background-color: #575757;
+    background-color: #e5a3d7;
 }
 .save-button {
     padding: 10px 20px;
