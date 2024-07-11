@@ -216,6 +216,7 @@ margin-left: 215px;
 .editable-field {
     display:flex;
     flex-direction:row;
+    align-items:centre;
     margin-bottom: 16px;
     margin-left: 205px;
     flex-grow:1;
@@ -233,7 +234,7 @@ margin-left: 215px;
     border-radius: 4px;
 }
 .image-section {
-    display:flex;
+    display:incline;
     flex-direction:column;
     align-items: center;
     margin-bottom: 16px;
@@ -243,7 +244,7 @@ margin-left: 215px;
 .image-section img {
     width: 150px;
     height: 150px;
-    border-radius: 0%;
+    border-radius: 11px;
     margin-bottom: 16px;
 }
 .image-section input[type="file"] {
